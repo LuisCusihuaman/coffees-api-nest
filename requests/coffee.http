@@ -23,3 +23,12 @@ Content-Type: application/json
   "brand": "everyone"
 }
 
+
+### update a coffe by id
+
+PATCH http://localhost:3000/coffees/124
+
+
+### delete a coffe by id
+
+DELETE http://localhost:3000/coffees/124
